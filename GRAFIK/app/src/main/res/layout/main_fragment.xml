@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainFragment"
+    android:background="@mipmap/kot_background"
+    >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:translationY="10dp"
+        android:text="ЖМЯК!"
+        android:translationX="210dp" />
+
+    <EditText
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите х1"></EditText>
+
+    <EditText
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите х2"></EditText>
+
+    <EditText
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите у1"></EditText>
+
+    <EditText
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите у2"></EditText>
+
+</LinearLayout>
